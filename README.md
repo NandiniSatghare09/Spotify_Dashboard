@@ -32,4 +32,11 @@ To ensure this visual always shows exactly 10 items regardless of other filters,
 Top 10 Streams:
 CALCULATE(SUM('Spotify Data'[streams]), TOPN(10, ALL('Spotify Data'[track_name]), SUM('Spotify Data'[streams]), DESC))
 
+### 6.	Screenshots / Demos
+Show what the dashboard looks like.
+Example: ![Dashboard Preview](https://github.com/NandiniSatghare09/Spotify_Dashboard/blob/main/Screenshot%202026-02-26%20172943.png)
+
+
+
+
 
